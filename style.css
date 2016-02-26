@@ -1,0 +1,134 @@
+/* Megha Agarwal
+CSS File for the style of the web page */
+
+#rancidbanner {
+	width: 100%;
+	background-image: url("images/rancidbannerbg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+body {
+    background-image: url("images/moviebg.png");
+    background-color: #cccccc;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+	text-shadow: 3px 3px #999999;
+	font-family: "Times New Roman", Times, serif;
+    font-size: 24pt;
+}
+
+h3 {
+	text-shadow: 3px 3px #999999;
+	font-family: "Times New Roman", Times, serif;
+    font-size: 24pt;
+}
+
+#overall {
+	width: 800px;
+	border: solid #CCCCCC 4px;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+#generaloverview {
+	width: 250px;
+	float: right;
+	background-color: #A2B964
+}
+
+#generaloverview dl {
+        font-size: 8pt;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+		margin-right: 10px;
+}
+     
+#generaloverview dt {
+        font-weight: bold;
+        margin-top: 10px;
+}
+     
+#generaloverview ul {
+        padding-left: 0px;
+        list-style: none;
+}
+
+#review {
+	float: left;
+	width: 550px;
+	background-color: #EEEEEE;
+}
+
+#reviewbanner {
+	background-image: url("images/rottenlargebg.png");
+	background-repeat: repeat-x;
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+#reviewbanner > img {
+	vertical-align: bottom;
+	height: 83px;
+	width: 98px;
+}
+
+.reviewcolumn {
+	width: 47%;
+	float: left;
+	margin-left: 2%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.reviewcolumn p {
+	font-size: 8pt;
+	overflow: hidden;
+}
+
+
+.reviewcolumn p:nth-child(2n+1) {
+	background-color: #FFFFFF;
+	border: solid #CCCCCC 2px;
+	border-radius: 10px;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.reviewcolumn p:nth-child(2n) {
+	margin-bottom: 20px;
+}
+
+.reviewcolumn img {
+	margin-right: 5px;
+	display: block;
+	float: left;
+}
+
+#footer {
+    text-align: center;
+    background-color: #A2B964;
+    clear: both;
+    padding: 5px;
+
+}
+
+#footer p {
+    margin: 0px;
+}
+
+#validators {
+	position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+#validators img {
+	opacity: 0.5;
+}
